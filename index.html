@@ -28,7 +28,7 @@ const { useState, useEffect, useRef, useCallback } = React;
 const BIN_ID  = "69ca5214856a682189e0749d";
 const API_KEY = "$2a$10$AmzUnvwLT/R07wAXdAFw1e7MiuxNfLUlPL1B8Jhrt4JmaiP5flzJy";
 const BIN_URL = `https://api.jsonbin.io/v3/b/${BIN_ID}`;
-const PIN     = "teff2025";
+const PIN     = "teff2026";
 
 async function fetchData() {
   const res = await fetch(BIN_URL + "/latest", { headers: { "X-Master-Key": API_KEY } });
